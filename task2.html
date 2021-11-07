@@ -1,0 +1,72 @@
+<html>
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <title>form</title>
+    <style>
+    h2{
+      text-align: center;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+    .formj{
+      border: 2px solid black;
+      padding: 25px;
+      background: #cccede;
+    }
+  </style>
+  </head>
+  <body>
+    <h2>Job Application Form</h2>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    --><div class="col-md-6 offset-md-3 mt-5 formj">
+    <form>
+      <div class="form-group">
+    <label for="examplefullname">Full Name</label>
+    <input type="name" class="form-control" id="examplefullname" aria-describedby="emailHelp" placeholder="Enter your Full Name">
+ </div>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+  </div>
+  <div class="form-group">
+    <label for="exampleAddress">Address</label>
+    <input type="address" class="form-control" id="exampleAddress" placeholder="Enter Your address">
+  </div>
+  <div class="form-group">
+    <label for="examplecity">City</label>
+    <input type="password" class="form-control" id="examplecity" placeholder="Enter your city name">
+  </div>
+
+  <div class="form-group">
+    <label for="examplezip">Zip</label>
+    <input type="zip" class="form-control" id="examplezip" placeholder="Enter your zip number">
+  </div>
+  <div class="form-group">
+    <label for="exampletelephone">Telephone</label>
+    <input type="tele" class="form-control" id="exampletelephone" placeholder="Enter your Telephone number ex.1-(555)-555-5555">
+  </div>
+  <div class="form-group">
+    <label for="examplesdate">Start Date</label>
+    <input type="sdate" class="form-control" id="examplesdate" placeholder="Enter your  start date ex.2020-02-01">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Upload Yor Cv</label><br>
+    
+    <input type="file" name="file">
+  </div><br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+</div>
+  </body>
+</html>
